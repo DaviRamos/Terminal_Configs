@@ -1,0 +1,300 @@
+// Este arquivo foi gerado inicialmente pelo Windows Terminal (Dev Build) 0.0.1.0
+// Ainda deve ser utilizável em versões mais recentes, mas versões mais recentes podem ter
+// configurações, texto de ajuda ou alterações que você não verá, a menos que limpe este arquivo
+// e vamos gerar um novo para você.
+// Para visualizar as configurações padrão, mantenha pressionada a tecla "alt" enquanto clica no botão "Configurações".
+// Para documentação sobre essas configurações, consulte: https://aka.ms/terminal-documentation
+{
+    "$ schema" : "https://raw.githubusercontent.com/microsoft/terminal/master/doc/cascadia/profiles.schema.json" ,
+    "defaultProfile" : "{2606165a-a7a0-4ac4-8e8c-36dd487fc9cb}" ,
+    "copyOnSelect" : false ,
+    "launchMode" : "maximized" ,
+    "showTerminalTitleInTitlebar" : false ,
+    "tabWidthMode" : "equal" ,
+    "profiles" : {
+        "padrões" : {
+            // "fontFace": "DejaVu Sans Mono para Powerline",
+            // "fontFace": "DejaVu Sans Mono",
+            // "fontFace": "DejaVuSansMono NF",
+            // "fontFace": "DejaVuSansMono Nerd Font Mono",
+            "fontFace" : "Código Cascadia PL" ,
+            "fontSize" : 12 ,
+            "snapOnInput" : true ,
+            "initialDirectory" : "% USERPROFILE%" ,
+            "backgroundImage" : "ms-appdata: ///roaming/images/backgrounds/matrix.gif" ,
+            "backgroundImageOpacity" : 0,3 ,
+            "backgroundImageStretchMode" : "uniformToFill" ,
+            "ceramicOpacity" : 0,9 ,
+            "useAcrylic" : false ,
+            "closeOnExit" : "always" ,
+            "colorScheme" : "Campbell" ,
+            "padding" : "0, 0, 0, 0" ,
+            "historySize" : 9001 ,
+            "suppressApplicationTitle" : true ,
+            "cursorColor" : "#FFFFFF" ,
+            "cursorShape" : "preenchido"
+        } ,
+        "lista" : [
+            {
+                "commandline" : "C: / Arquivos de Programas / PowerShell / 7 / pwsh.exe -NoLogo" ,
+                "guid" : "{2606165a-a7a0-4ac4-8e8c-36dd487fc9cb}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/pwsh-preview.png" ,
+                "name" : "PowerShell 7" ,
+                "tabTitle" : "PoSh7"
+            } ,
+            {
+                "backgroundImage" : "ms-appdata: ///roaming/images/backgrounds/cof_orange_hex.png" ,
+                "backgroundImageOpacity" : 0,1 ,
+                "backgroundImageStretchMode" : "none" ,
+                "backgroundImageAlignment" : "bottomRight" ,
+                "colorScheme" : "Ubuntu" ,
+                "guid" : "{2c4de342-38b7-51cf-b940-2309a097f518}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/ubuntu.ico" ,
+                "nome" : "Ubuntu" ,
+                " startupDirectory " : "// wsl $ / Ubuntu / home / giggio" ,
+                "tabTitle" : "Ubuntu" ,
+                "fonte" : "Windows.Terminal.Wsl" ,
+                "oculto" : false
+            } ,
+            {
+                "nome" : "cmd" ,
+                "guid" : "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}" ,
+                "closeOnExit" : "always" ,
+                "commandline" : "cmd.exe" ,
+                "oculto" : false
+            } ,
+            {
+                "commandline" : "C: / Arquivos de Programas / PowerShell / 6 / pwsh.exe -NoLogo" ,
+                "guid" : "{574e775e-4f2a-5b96-ac1e-a2962a402336}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/pwsh.png" ,
+                "name" : "PowerShell 6" ,
+                "tabTitle" : "PoSh6" ,
+                "source" : "Windows.Terminal.PowershellCore" ,
+                "oculto" : false
+            } ,
+            {
+                "guid" : "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}" ,
+                "name" : "Windows PowerShell" ,
+                "closeOnExit" : "always" ,
+                "commandline" : "powershell.exe -NoLogo" ,
+                "oculto" : false
+            } ,
+            {
+                "backgroundImage" : "ms-appdata: ///roaming/images/backgrounds/cloud.png" ,
+                "backgroundImageOpacity" : 0,2 ,
+                "commandline" : "azshell" ,
+                "guid" : "{e906b7aa-3a1e-41fb-9b20-cbb8ff680e27}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/azure.png" ,
+                "name" : "Azure Cloud Shell (pessoal)" ,
+                "tabTitle" : "Az"
+            } ,
+            {
+                "backgroundImageOpacity" : 0,3 ,
+                "backgroundImageStretchMode" : "uniformToFill" ,
+                "commandline" : "C: / Arquivos de Programas / PowerShell / 7 / pwsh.exe -NoLogo" ,
+                "guid" : "{e906b7aa-3a1e-41fb-9b20-cbb8ff680e22}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/neo2.png" ,
+                "name" : "PowerShell (Matrix)" ,
+                "tabTitle" : "PoSh7-M"
+            } ,
+            {
+                "backgroundImage" : "ms-appdata: ///roaming/images/backgrounds/ninjacat.png" ,
+                "backgroundImageOpacity" : 0,15 ,
+                "backgroundImageStretchMode" : "uniforme" ,
+                "backgroundImageAlignment" : "bottomRight" ,
+                "commandline" : "C: / Arquivos de Programas / PowerShell / 7 / pwsh.exe -NoLogo" ,
+                "guid" : "{2c378660-4a7a-4c58-a98d-424148061954}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/pwsh-preview.png" ,
+                "name" : "PowerShell (NinjaCat)" ,
+                "tabTitle" : "PoSh7-N"
+            } ,
+            {
+                "commandline" : "C: / Arquivos de Programas / PowerShell / 7 / pwsh.exe -NoLogo" ,
+                "guid" : "{a844f1e6-043b-497f-889a-469b76337459}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/pwsh-preview.png" ,
+                "name" : "PowerShell 7 (Vintage)" ,
+                "colorScheme" : "Vintage2" ,
+                "cursorShape" : "vintage" ,
+                "cursorHeight" : 40 ,
+                "fontFace" : "PxPlus IBM CGAthin-2y" ,
+                "fontSize" : 16 ,
+                "experimental.retroTerminalEffect" : true ,
+                "backgroundImage" : "" ,
+                "tabTitle" : "PoSh7-V"
+            } ,
+            {
+                "backgroundImage" : "ms-appdata: ///roaming/images/backgrounds/tux-vintage.png" ,
+                "commandline" : "ubuntu" ,
+                "cursorShape" : "vintage" ,
+                "cursorHeight" : 40 ,
+                "fontFace" : "PxPlus IBM CGAthin-2y" ,
+                "fontSize" : 16 ,
+                "experimental.retroTerminalEffect" : true ,
+                "backgroundImageOpacity" : 0,1 ,
+                "backgroundImageStretchMode" : "none" ,
+                "backgroundImageAlignment" : "bottomRight" ,
+                "colorScheme" : "Ubuntu" ,
+                "guid" : "{33db8fed-2d53-4b84-96ee-4026bc7a81c2}" ,
+                "icon" : "ms-appdata: ///roaming/images/icons/ubuntu.ico" ,
+                "name" : "Ubuntu (Vintage)" ,
+                " startupDirectory " : "// wsl $ / Ubuntu / home / giggio" ,
+                "tabTitle" : "Ubuntu-V"
+            } ,
+            {
+                "guid" : "{b2d6503a-d0e6-5c93-b063-25b165a68977}" ,
+                "oculto" : falso ,
+                "nome" : "openSUSE" ,
+                "fonte" : "Windows.Terminal.Wsl" ,
+                "icon" : "ms-appx: /// ProfileIcons / {9acb9455-ca41-5af7-950f-6bca1bc9722f} .png" ,
+                "tabTitle" : "openSUSE"
+            } ,
+            {
+                "commandline" : "c: / Arquivos de Programas / Yori / yori.exe" ,
+                "guid" : "{0caa0dad-35be-5f56-a8ff-afceeeaa1237}" ,
+                "icon" : "ms-appx: /// ProfileIcons / {0caa0dad-35be-5f56-a8ff-afceeeaa6101} .png" ,
+                "nome" : "Yori" ,
+                "tabTitle" : "Yori"
+            } ,
+            {
+                "guid" : "{b453ae62-4e3d-5e58-b989-0a998ec441b8}" ,
+                "oculto" : falso ,
+                "name" : "Azure Cloud Shell" ,
+                "source" : "Windows.Terminal.Azure"
+            } ,
+            {
+                "guid" : "{63e31163-583f-5850-9c1e-24e227dd2da9}" ,
+                "oculto" : verdadeiro ,
+                "name" : "PowerShell (dotnet global)" ,
+                "source" : "Windows.Terminal.PowershellCore"
+            } ,
+            {
+                "commandline" : "C: / Arquivos de Programas / PowerShell / 7 / pwsh.exe -NoLogo -NoProfile" ,
+                "guid" : "{8b1318e8-d24d-4ecc-a161-d10b6823f980}" ,
+                "name" : "PowerShell (sem perfil)" ,
+                "initialDirectory" : "C: / p / WindowsPowerShell" ,
+                "tabTitle" : "PoSh7-NoProfile"
+            } ,
+            {
+                "commandline" : "powershell.exe -NoLogo -NoProfile" ,
+                "guid" : "{899efbb2-7f8c-43be-8ba2-850258183f6c}" ,
+                "name" : "Windows PowerShell (sem perfil)" ,
+                "initialDirectory" : "C: / p / WindowsPowerShell" ,
+                "tabTitle" : "Windows PowerShell-NoProfile"
+            }
+        ]
+    } ,
+    // Adicione esquemas de cores personalizados a esta matriz.
+    // Para saber mais sobre esquemas de cores, visite https://aka.ms/terminal-color-schemes
+    "esquemas" : [
+        {
+            "nome" : "Ubuntu" ,
+            "plano de fundo" : "# 300A24" ,
+            "preto" : "# 300A24" ,
+            "azul" : "# 3465A4" ,
+            "brightBlack" : "# 554E53" ,
+            "brightBlue" : "# 729FCF" ,
+            "brightCyan" : "# 34E2E2" ,
+            "brightGreen" : "# 8AE234" ,
+            "brightPurple" : "# AD7FA8" ,
+            "brightRed" : "# EF2929" ,
+            "brightWhite" : "#EEEEEE" ,
+            "brightYellow" : "# FCE94F" ,
+            "ciano" : "# 06989A" ,
+            "primeiro plano" : "#EEEEEE" ,
+            "verde" : "# 4E9A06" ,
+            "roxo" : "# 75507B" ,
+            "vermelho" : "# CC0000" ,
+            "branco" : "# D3D7CF" ,
+            "amarelo" : "# C4A000"
+        } ,
+        {
+            "name" : "Vintage2" ,
+            "primeiro plano" : "# 41FF00" ,
+            "plano de fundo" : "# 000000" ,
+            "preto" : "# 000000" ,
+            "vermelho" : "# 800000" ,
+            "verde" : "# 008000" ,
+            "amarelo" : "# 808000" ,
+            "azul" : "# 000080" ,
+            "roxo" : "# 800080" ,
+            "ciano" : "# 008080" ,
+            "branco" : "# C0C0C0" ,
+            "brightBlack" : "# 808080" ,
+            "brightRed" : "# FF0000" ,
+            "brightGreen" : "# 00FF00" ,
+            "brightYellow" : "# FFFF00" ,
+            "brightBlue" : "# 0000FF" ,
+            "brightPurple" : "# FF00FF" ,
+            "brightCyan" : "# 00FFFF" ,
+            "brightWhite" : "#FFFFFF"
+        }
+    ] ,
+    // Adicione combinações de teclas personalizadas a esta matriz.
+    // Para desvincular uma combinação de teclas do seu defaults.json, defina o comando como "unbound".
+    // Para saber mais sobre combinações de teclas, visite https://aka.ms/terminal-keybindings
+    "keybindings" : [
+        {  "command" : "unbound" ,  "keys" : "ctrl + shift + 1"  } ,
+        {  "command" : "unbound" ,  "keys" : "ctrl + shift + 2"  } ,
+        {
+            "command" : {  "action" : "newTab" ,  "index" : 1  } ,
+            "keys" : "ctrl + shift + y"
+        } ,
+        // Pressione Ctrl + Shift + F para abrir a caixa de pesquisa
+        {
+            "command" : "find" ,
+            "keys" : "ctrl + shift + f"
+        } ,
+        {
+            "command" : {  "action" : "moveFocus" ,  "direction" : "down"  } ,
+            "keys" : "ctrl + shift + j"
+        } ,
+        {
+            "command" : {  "action" : "moveFocus" ,  "direction" : "left"  } ,
+            "keys" : "ctrl + shift + h"
+        } ,
+        {
+            "command" : {  "action" : "moveFocus" ,  "direction" : "right"  } ,
+            "keys" : "ctrl + shift + l"
+        } ,
+        {
+            "command" : {  "action" : "moveFocus" ,  "direction" : "up"  } ,
+            "keys" : "ctrl + shift + k"
+        } ,
+        {
+            "command" : {  "action" : "resizePane" ,  "direction" : "down"  } ,
+            "keys" : "alt + shift + j"
+        } ,
+        {
+            "command" : {  "action" : "resizePane" ,  "direction" : "left"  } ,
+            "keys" : "alt + shift + h"
+        } ,
+        {
+            "command" : {  "action" : "resizePane" ,  "direction" : "right"  } ,
+            "keys" : "alt + shift + l"
+        } ,
+        {
+            "command" : {  "action" : "resizePane" ,  "direction" : "up"  } ,
+            "keys" : "alt + shift + k"
+        } ,
+        // Pressione Alt + Shift + D para abrir um novo painel.
+        // - "split": "auto" abre esse painel na direção que fornece a maior área de superfície.
+        // - "splitMode": "duplicate" faz com que o novo painel use o perfil do painel focado.
+        // Para saber mais sobre painéis, visite https://aka.ms/terminal-panes
+        {
+            "command" : {  "action" : "splitPane" ,  "split" : "auto" ,  "splitMode" : "duplicate"  } ,
+            "keys" : "alt + shift + d"
+        } ,
+        {
+            "command" : {  "action" : "splitPane" ,  "split" : "horizontal" ,  "splitMode" : "duplicate"  } ,
+            "keys" : "ctrl + alt + h"
+        } ,
+        {
+            "command" : {  "action" : "splitPane" ,  "split" : "vertical" ,  "splitMode" : "duplicate"  } ,
+            "keys" : "ctrl + alt + v"
+        } ,
+        {
+            "command" : {  "action" : "splitPane" ,  "split" : "vertical" ,  "index" : 1  } ,
+            "keys" : "ctrl + alt + u"
+        }
+    ]
+}
